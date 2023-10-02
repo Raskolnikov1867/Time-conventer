@@ -70,6 +70,7 @@ int main()
 	if (h - 12 > -7 && h - 12 < 0) den = "утра";
 	if (h - 12 >= 0 && h - 12 < 6) den = "дня";
 	if (h - 12 >= 6 && h - 12 <= 12)den = "вечера";
+	
 	if (m == 00) cout << hour_12 << chasi << den << " ровно";
 	else cout << hour_12 << chasi << m << minuti << den;
 	_getch();
